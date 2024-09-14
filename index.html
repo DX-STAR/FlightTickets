@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-starWings - Book Your Flights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">D-starWings</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#book">Manage Booking</a></li>
+                <li><a href="#manage">Check-In</a></li>
+                <li><a href="#experience">Offers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Book Your Flight Today</h1>
+                <p>Discover amazing destinations with D-StarWings</p>
+                <div class="search-box">
+                    <div class="tabs">
+                        <button class="tab-button active">One Way</button>
+                        <button class="tab-button">Round Trip</button>
+                        <button class="tab-button">Multi-City</button>
+                    </div>
+                    <form id="flight-search" class="search-form">
+                        <div class="form-row">
+                            <input type="text" id="from" name="from" placeholder="From" required>
+                            <input type="text" id="to" name="to" placeholder="To" required>
+                            <input type="date" id="depart" name="depart" required>
+                            <input type="text" id="passengers" name="passengers" placeholder="1 Adult" required>
+                        </div>
+                        <button type="submit" class="search-button">Search Flights</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="destination-grid">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="grid">
+                <div class="destination-card">
+                    <img src="images/Chennai.jpg" alt="Chennai" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Chennai Flights</h3>
+                        <p>Via - Delhi, Mumbai, Coimbatore, Madurai</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/Goa.jpg" alt="Goa" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Goa Flights</h3>
+                        <p>Via - Delhi, Mumbai, Bangalore, Ahmedabad</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/Mumbai.jpg" alt="Mumbai" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Mumbai Flights</h3>
+                        <p>Via - Delhi, Bangalore, Chennai, Ahmedabad</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/Hydrabad.jpg" alt="Hyderabad" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Hyderabad Flights</h3>
+                        <p>Via - Chennai, Mumbai, Bangalore, Delhi</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/delhi.jpg" alt="Delhi" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Delhi Flights</h3>
+                        <p>Via - Mumbai, Pune, Bangalore, Chennai</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/pune.cms" alt="Pune" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Pune Flights</h3>
+                        <p>Via - Delhi, Bangalore, Chennai, Ahmedabad</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/kolkata.jpg" alt="Kolkata" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Kolkata Flights</h3>
+                        <p>Via - Delhi, Mumbai, Bangalore, Pune</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/Banglore.JPG" alt="Bangalore" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Bangalore Flights</h3>
+                        <p>Via - Delhi, Pune, Mumbai, Kolkata</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/Jaipur.jpg" alt="Jaipur" class="destination-icon">
+                    <div class="destination-info">
+                        <h3>Jaipur Flights</h3>
+                        <p>Via - Mumbai, Delhi, Pune, Bangalore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-heading">About D-Wings Air</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Our Story</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Press Room</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Customer Support</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link">FAQs</a></li>
+                        <li><a href="#" class="footer-link">Baggage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Legal</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Connect with Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
